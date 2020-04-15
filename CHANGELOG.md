@@ -9,3 +9,7 @@
 ## [1.0.2]
 
 * Added method to allow fetching of instance by providing type as parameter
+
+## [1.0.3]
+
+* Simple refactor

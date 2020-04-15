@@ -1,5 +1,5 @@
 
-import 'package:bargain_di/bargain_di.dart';
+import 'package:bargain_di/ObjectFactory.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 const String _stringValue = "This is some text";
