@@ -1,7 +1,7 @@
-class StatefulCounterManager{
+class StatefulCounterManager {
   int _counter = 0;
-  
-  int increment(){
+
+  int increment() {
     _counter += 1;
     return _counter;
   }

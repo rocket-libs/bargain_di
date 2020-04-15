@@ -1,6 +1,6 @@
 name: bargain_di
-description: A poor man's dependency injector.
-version: 0.0.1
+description: A poor man's dependency injector. This package will allow you to register classes once and have the ability to quickly initialize them. Main goals are to reduce parameter passing and to allow mocking during testing.
+version: 1.0.0
 author:
 homepage: https://github.com/rocket-libs/bargain_di
 
