@@ -2,7 +2,7 @@ name: bargain_di
 description: A poor man's dependency injector.
 version: 0.0.1
 author:
-homepage:
+homepage: https://github.com/rocket-libs/bargain_di
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
