@@ -16,4 +16,12 @@ void main() {
     final dummyClassInstance = objectFactory.getInstance<_DummyClass>();
     expect(dummyClassInstance.textValue, _stringValue);
   });
+
+  test("Implicity Dependancy Injection Works", () {
+    final objectFactory = new ObjectFactory();
+    objectFactory.registerImplicit(() => new _DummyClass());
+
+    final dummyClassInstance = objectFactory.getInstance<_DummyClass>();
+    expect(dummyClassInstance.textValue, _stringValue);
+  });
 }

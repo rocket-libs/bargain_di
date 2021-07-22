@@ -1,10 +1,10 @@
 name: bargain_di
 description: A poor man's dependency injector. This package will allow you to register classes once and have the ability to quickly initialize them. Main goals are to reduce parameter passing and to allow mocking during testing.
-version: 1.0.3
+version: 1.0.4
 homepage: https://github.com/rocket-libs/bargain_di
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
